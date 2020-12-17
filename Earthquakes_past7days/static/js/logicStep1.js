@@ -42,7 +42,7 @@ let myStyle = {
     color: "#ffffa1",
     weight: 1
 }
-// Grabbing our GeoJSON data.
+//Retrieve the earthquake GeoJSON data.
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
     console.log(data);
   // Creating a GeoJSON layer with the retrieved data.
